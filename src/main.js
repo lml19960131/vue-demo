@@ -13,27 +13,27 @@ Vue.use(VRouter);
 let router= new VRouter({
   routes:[
     {
-      path: './content/diary',
+      path: '/diary',
       component: diary
     },
     {
-      path: './account',
+      path: '/account',
       component: account
     },
     {
-      path: './memorandum',
+      path: '/memorandum',
       component: memorandum
     },
     {
-      path: './birthday',
+      path: '/birthday',
       component: birthday
     },
     {
-      path: './timetable',
+      path: '/timetable',
       component: timetable
     },
     {
-      path: './circle',
+      path: '/circle',
       component: circle
     }
   ]

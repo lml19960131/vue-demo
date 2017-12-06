@@ -26,19 +26,19 @@
 <style scoped>
   .top{
     width: 100%;
-    height: 60px;
-    background-color: deepskyblue;
+    height: 45px;
     position: relative;
+    border-bottom: 1px solid rgba(7,17,27,0.5);
   }
   .logo{
     margin-left: 10px;
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
   }
   .date{
     position: absolute;
-    font-size: 16px;
-    color: grey;
+    font-size: 12px;
+    color: gray;
     right: 10px;
     bottom: 5px;
   }

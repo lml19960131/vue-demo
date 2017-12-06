@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <top></top>
+    <top class="top"></top>
     <div class="content">
       <div class="diary">
         <router-link :to="{path: 'diary'}">
         <span class="logo">
-          <img class="logo-img" src="assets/diary.jpg">
+          <img class="logo-img" src="../src/assets/diary.jpg">
           <span class="logo-font">日记</span>
         </span>
         </router-link>
@@ -13,7 +13,7 @@
       <div class="account">
         <router-link :to="{path: 'account'}">
           <span class="logo">
-            <img class="logo-img" src="assets/account.jpg">
+            <img class="logo-img" src="../src/assets/account.jpg">
             <span class="logo-font">账单</span>
           </span>
         </router-link>
@@ -21,7 +21,7 @@
       <div class="memorandum">
         <router-link :to="{path: 'memorandum'}">
           <span class="logo">
-            <img class="logo-img" src="assets/memorandum.jpg">
+            <img class="logo-img" src="../src/assets/memorandum.jpg">
             <span class="logo-font">备忘录</span>
           </span>
         </router-link>
@@ -29,7 +29,7 @@
       <div class="birthday">
         <router-link :to="{path: 'birthday'}">
           <span class="logo">
-            <img class="logo-img" src="assets/birthday.jpg.jpg">
+            <img class="logo-img" src="../src/assets/birthday.jpg">
             <span class="logo-font">生日</span>
           </span>
         </router-link>
@@ -37,7 +37,7 @@
       <div class="timetable">
         <router-link :to="{path: 'timetable'}">
           <span class="logo">
-            <img class="logo-img" src="assets/timetable.jpg">
+            <img class="logo-img" src="../src/assets/timetable.jpg">
             <span class="logo-font">日程安排</span>
           </span>
         </router-link>
@@ -45,7 +45,7 @@
       <div class="circle">
         <router-link :to="{path: 'circle'}">
           <span class="logo">
-            <img class="logo-img" src="assets/circle.jpg.jpg">
+            <img class="logo-img" src="../src/assets/circle.jpg">
             <span class="logo-font">动态</span>
           </span>
         </router-link>
@@ -91,6 +91,7 @@
     height: 60px;
     margin-left: 20px;
     margin-top: 20px;
+    border-radius: 50%;
   }
 
   .logo-font {
